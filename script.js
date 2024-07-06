@@ -41,7 +41,7 @@ const app = {
       this.handlePushOutputtedNumber(output);
       this.handleShowNumberList();
       btn.disabled = false;
-    }, 1000);
+    }, this.time);
   },
   handleShowNumberList: function () {
     const outputHtml = this.listOutputted
