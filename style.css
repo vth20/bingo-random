@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+body {
+  background: #ececec;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  font-weight: 300;
+}
+
+#Generate {
+  background: #fff;
+  width: 50em;
+  animation: fadeIn 1s ease-in-out;
+  backface-visibility: hidden;
+  transition: all 0.5s;
+  padding: 30px;
+  border: 1px solid #673ab7;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#title {
+  color: #fff;
+  font-size: 22px;
+  padding: 1em;
+  background: #673ab7;
+  margin-bottom: 20%;
+}
+
+#btn {
+  width: 100%;
+  padding: 1em 0;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 20%;
+  display: block;
+  background: #673ab7;
+  cursor: pointer;
+  border: 2px solid #673ab7;
+}
+
+#demo {
+  border: 2px solid #673ab7;
+  padding: 30px;
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  justify-content: center;
+}
+
+#number {
+  color: blue;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 4px;
+  border: 1px solid blue;
+  border-radius: 50%;
+}
